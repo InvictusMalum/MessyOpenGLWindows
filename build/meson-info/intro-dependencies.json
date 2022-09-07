@@ -1,0 +1,1 @@
+[{"name": "threads", "version": "unknown", "compile_args": ["-pthread"], "link_args": ["-pthread"]}, {"name": "vulkan", "version": "unknown", "compile_args": ["-IC:\\VulkanSDK\\1.3.204.0\\Include"], "link_args": ["-LC:\\VulkanSDK\\1.3.204.0\\Lib", "-lvulkan-1"]}]

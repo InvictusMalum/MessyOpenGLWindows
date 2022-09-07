@@ -1,0 +1,1 @@
+{"version": "0.1", "descriptive_name": "macOpenGL", "subproject_dir": "subprojects", "subprojects": [{"name": "glfw-meson", "version": "3.3.0", "descriptive_name": "glfw"}]}

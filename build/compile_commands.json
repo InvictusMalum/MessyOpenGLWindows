@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\deps\\libglad.a.p\" \"-Isubprojects\\glfw-meson\\deps\" \"-I..\\subprojects\\glfw-meson\\deps\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" -MD -MQ subprojects/glfw-meson/deps/libglad.a.p/glad.c.obj -MF \"subprojects\\glfw-meson\\deps\\libglad.a.p\\glad.c.obj.d\" -o subprojects/glfw-meson/deps/libglad.a.p/glad.c.obj \"-c\" ../subprojects/glfw-meson/deps/glad.c",
+    "file": "../subprojects/glfw-meson/deps/glad.c",
+    "output": "subprojects/glfw-meson/deps/libglad.a.p/glad.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\deps\\libgetopt.a.p\" \"-Isubprojects\\glfw-meson\\deps\" \"-I..\\subprojects\\glfw-meson\\deps\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" -MD -MQ subprojects/glfw-meson/deps/libgetopt.a.p/getopt.c.obj -MF \"subprojects\\glfw-meson\\deps\\libgetopt.a.p\\getopt.c.obj.d\" -o subprojects/glfw-meson/deps/libgetopt.a.p/getopt.c.obj \"-c\" ../subprojects/glfw-meson/deps/getopt.c",
+    "file": "../subprojects/glfw-meson/deps/getopt.c",
+    "output": "subprojects/glfw-meson/deps/libgetopt.a.p/getopt.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\deps\\libtinycthread.a.p\" \"-Isubprojects\\glfw-meson\\deps\" \"-I..\\subprojects\\glfw-meson\\deps\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" -MD -MQ subprojects/glfw-meson/deps/libtinycthread.a.p/tinycthread.c.obj -MF \"subprojects\\glfw-meson\\deps\\libtinycthread.a.p\\tinycthread.c.obj.d\" -o subprojects/glfw-meson/deps/libtinycthread.a.p/tinycthread.c.obj \"-c\" ../subprojects/glfw-meson/deps/tinycthread.c",
+    "file": "../subprojects/glfw-meson/deps/tinycthread.c",
+    "output": "subprojects/glfw-meson/deps/libtinycthread.a.p/tinycthread.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/context.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\context.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/context.c.obj \"-c\" ../subprojects/glfw-meson/src/context.c",
+    "file": "../subprojects/glfw-meson/src/context.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/context.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/init.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\init.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/init.c.obj \"-c\" ../subprojects/glfw-meson/src/init.c",
+    "file": "../subprojects/glfw-meson/src/init.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/init.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/input.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\input.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/input.c.obj \"-c\" ../subprojects/glfw-meson/src/input.c",
+    "file": "../subprojects/glfw-meson/src/input.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/input.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/monitor.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\monitor.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/monitor.c.obj \"-c\" ../subprojects/glfw-meson/src/monitor.c",
+    "file": "../subprojects/glfw-meson/src/monitor.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/monitor.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/vulkan.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\vulkan.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/vulkan.c.obj \"-c\" ../subprojects/glfw-meson/src/vulkan.c",
+    "file": "../subprojects/glfw-meson/src/vulkan.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/vulkan.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/window.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\window.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/window.c.obj \"-c\" ../subprojects/glfw-meson/src/window.c",
+    "file": "../subprojects/glfw-meson/src/window.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/window.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/win32_thread.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\win32_thread.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/win32_thread.c.obj \"-c\" ../subprojects/glfw-meson/src/win32_thread.c",
+    "file": "../subprojects/glfw-meson/src/win32_thread.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/win32_thread.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/win32_joystick.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\win32_joystick.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/win32_joystick.c.obj \"-c\" ../subprojects/glfw-meson/src/win32_joystick.c",
+    "file": "../subprojects/glfw-meson/src/win32_joystick.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/win32_joystick.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/win32_time.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\win32_time.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/win32_time.c.obj \"-c\" ../subprojects/glfw-meson/src/win32_time.c",
+    "file": "../subprojects/glfw-meson/src/win32_time.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/win32_time.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/osmesa_context.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\osmesa_context.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/osmesa_context.c.obj \"-c\" ../subprojects/glfw-meson/src/osmesa_context.c",
+    "file": "../subprojects/glfw-meson/src/osmesa_context.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/osmesa_context.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/egl_context.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\egl_context.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/egl_context.c.obj \"-c\" ../subprojects/glfw-meson/src/egl_context.c",
+    "file": "../subprojects/glfw-meson/src/egl_context.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/egl_context.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/wgl_context.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\wgl_context.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/wgl_context.c.obj \"-c\" ../subprojects/glfw-meson/src/wgl_context.c",
+    "file": "../subprojects/glfw-meson/src/wgl_context.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/wgl_context.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/win32_init.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\win32_init.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/win32_init.c.obj \"-c\" ../subprojects/glfw-meson/src/win32_init.c",
+    "file": "../subprojects/glfw-meson/src/win32_init.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/win32_init.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/win32_monitor.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\win32_monitor.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/win32_monitor.c.obj \"-c\" ../subprojects/glfw-meson/src/win32_monitor.c",
+    "file": "../subprojects/glfw-meson/src/win32_monitor.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/win32_monitor.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-Isubprojects\\glfw-meson\\src\\libglfw.a.p\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\include\" \"-IC:\\VulkanSDK\\1.3.204.0\\Include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" \"-pthread\" \"-D_GLFW_USE_CONFIG_H\" -MD -MQ subprojects/glfw-meson/src/libglfw.a.p/win32_window.c.obj -MF \"subprojects\\glfw-meson\\src\\libglfw.a.p\\win32_window.c.obj.d\" -o subprojects/glfw-meson/src/libglfw.a.p/win32_window.c.obj \"-c\" ../subprojects/glfw-meson/src/win32_window.c",
+    "file": "../subprojects/glfw-meson/src/win32_window.c",
+    "output": "subprojects/glfw-meson/src/libglfw.a.p/win32_window.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"c++\" \"-ImacOpenGL.exe.p\" \"-I.\" \"-I..\" \"-I..\\Libraries\\include\" \"-I..\\subprojects\\glfw-meson\\include\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-Wpedantic\" \"-std=c++14\" \"-g\" -MD -MQ macOpenGL.exe.p/main.cpp.obj -MF \"macOpenGL.exe.p\\main.cpp.obj.d\" -o macOpenGL.exe.p/main.cpp.obj \"-c\" ../main.cpp",
+    "file": "../main.cpp",
+    "output": "macOpenGL.exe.p/main.cpp.obj"
+  },
+  {
+    "directory": "C:\\Users\\student\\Downloads\\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\\build",
+    "command": "\"cc\" \"-ImacOpenGL.exe.p\" \"-I.\" \"-I..\" \"-I..\\Libraries\\include\" \"-I..\\subprojects\\glfw-meson\\include\" \"-Isubprojects\\glfw-meson\\src\" \"-I..\\subprojects\\glfw-meson\\src\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wextra\" \"-Wpedantic\" \"-g\" -MD -MQ macOpenGL.exe.p/glad.c.obj -MF \"macOpenGL.exe.p\\glad.c.obj.d\" -o macOpenGL.exe.p/glad.c.obj \"-c\" ../glad.c",
+    "file": "../glad.c",
+    "output": "macOpenGL.exe.p/glad.c.obj"
+  }
+]

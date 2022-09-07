@@ -1,0 +1,126 @@
+Build started at 2022-09-07T16:40:11.286608
+Main binary: C:\Program Files\Meson\meson.exe
+Build Options: -Dbackend=ninja
+Python system: Windows
+The Meson build system
+Version: 0.61.2
+Source dir: C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce
+Build dir: C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build
+Build type: native build
+Project name: macOpenGL
+Project version: 0.1
+C++ compiler for the host machine: c++ (gcc 10.3.0 "c++ (Rev5, Built by MSYS2 project) 10.3.0")
+C++ linker for the host machine: c++ ld.bfd 2.37
+C++ compiler for the build machine: c++ (gcc 10.3.0 "c++ (Rev5, Built by MSYS2 project) 10.3.0")
+C++ linker for the build machine: c++ ld.bfd 2.37
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: C:\msys64\mingw64\bin\pkg-config.EXE (1.8.0)
+Determining dependency 'glfw3' with pkg-config executable 'C:\\msys64\\mingw64\\bin\\pkg-config.EXE'
+env[PKG_CONFIG_PATH]: 
+Called `C:\msys64\mingw64\bin\pkg-config.EXE --modversion glfw3` -> 1
+
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency glfw3 found: NO (tried pkgconfig and cmake)
+
+Executing subproject glfw-meson 
+
+Project name: glfw
+Project version: 3.3.0
+C compiler for the host machine: cc (gcc 10.3.0 "cc (Rev5, Built by MSYS2 project) 10.3.0")
+C linker for the host machine: cc ld.bfd 2.37
+C compiler for the build machine: cc (gcc 10.3.0 "cc (Rev5, Built by MSYS2 project) 10.3.0")
+C linker for the build machine: cc ld.bfd 2.37
+Running compile:
+Working directory:  C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpfnzi66le
+Command line:  cc C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpfnzi66le\testfile.c -o C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpfnzi66le\output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpguvji5bk
+Command line:  cc C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpguvji5bk\testfile.c -o C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpguvji5bk\output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lrt
+collect2.exe: error: ld returned 1 exit status
+
+Library rt found: NO
+Dependency threads found: YES unknown (cached)
+Configuring glfw_config.h using configuration
+Dependency vulkan found: YES unknown (cached)
+Running compile:
+Working directory:  C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpzek3x537
+Command line:  cc C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpzek3x537\testfile.c -o C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmpzek3x537\output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lgdi32 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library gdi32 found: YES
+Build targets in project: 4
+Subproject glfw-meson finished.
+
+WARNING: include_directories sandbox violation!
+WARNING: include_directories sandbox violation!
+Build targets in project: 5
+
+macOpenGL 0.1
+
+  Subprojects
+    glfw-meson: YES
+
+  User defined options
+    backend   : ninja
+
+Found ninja-1.10.2 at "C:\Program Files\Meson\ninja.EXE"
+Running compile:
+Working directory:  C:\Users\student\AppData\Local\Temp\tmpd19t6bh8
+Command line:  c++ C:\Users\student\AppData\Local\Temp\tmpd19t6bh8\testfile.cpp -o C:\Users\student\AppData\Local\Temp\tmpd19t6bh8\output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES
+Running compile:
+Working directory:  C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmp71y_8yxo
+Command line:  c++ C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmp71y_8yxo\testfile.cpp -o C:\Users\student\Downloads\MacOpenGL-cac8ca6b253082b4b6f01d96401d3b41aa4eb6ce\build\meson-private\tmp71y_8yxo\output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/
+programs: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/10.3.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.3.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../x86_64-w64-mingw32/10.3.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.3.0/;D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../;D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/lib/
+
+Compiler stderr:
+ 
